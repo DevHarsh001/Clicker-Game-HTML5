@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: black;
+    color: yellow;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    font-size: 1em;
+}
+
+button {
+    background: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+#coin {
+    margin-top: 100px;
+    font-size: 100px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+#coin:active {
+    transform: scale(0.95);
+}
